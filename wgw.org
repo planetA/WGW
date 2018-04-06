@@ -235,3 +235,28 @@ scientific challenges.
    have thoroughly document as many steps as they can in the process
    of optimization with proper explanation of the bottlenecks
    discovered due to modeling.
+
+** Conclusion
+
+ - Statistical Biases and Paradoxes
+
+   Simpsons paradox: low birth-weight paradox
+
+   Monty Hall problem
+
+   Uncertainty bias: This has a good illustration European Union 
+   regulations on algorithmic decision-making and a “right to
+   explanation” Bryce Goodman, 1∗ Seth Flaxman
+
+   Confirmation bias
+
+   Representative sampling and stratification
+
+ - Ethics in computer science
+
+   Interpretable statistical models
+
+   Technological hazards: AI, automation, data concentration
+
+
+
