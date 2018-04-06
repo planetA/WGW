@@ -1,0 +1,237 @@
+#+TITLE: Wissenschaftliches Grundlagenwissen (curriculum plan)
+#+AUTHOR: Maksym Planeta
+
+* About
+
+The goal of this document is to propose a plan for a lecture or
+practicum about scientific methods. The purpose of the class is to
+teach student to produce high quality scientific material.
+
+* Literature
+
+Discovering statistics Using R, Andy Field, Jeremy Miles, Zoë Field
+
+* Study plan
+
+This chapter outlines the structure of the course for 2 SWS. There are
+expected to be 15 lectures and exercises.
+
+** Introduction
+
+This lecture introduces students to a history of science, its current
+goals and methods. Additionally it mentions social aspects of
+scientific community. The course is motivated by a spectra of modern
+scientific challenges.
+
+ - Doing research
+
+   - Scientific experiment and Francis Bacon
+
+   - Falsifiable hypothesis and Karl Popper
+
+   - Statistical hypothesis testing
+
+   - Reproducibility crisis
+
+ - Communicating science
+
+   - Journals, conferences, workshops
+
+   - Research metrics and their limitations: impact factor, citations,
+     conference ranking, etc.
+
+   - Guidelines for good scientific practice 
+
+ - How to read a paper?
+
+   Literature:
+   - https://blog.acolyer.org/2015/03/30/end-of-term-and-how-i-read-a-paper/
+ - How to write a paper?
+
+   Literature:
+
+   - How (and How Not) to Write a Good Systems Paper, Roy Levin and
+     David D. Redell,
+
+   - How to Write and Publish a Scientific Paper, Robert A. Day,
+     Barbara Gastel
+ - What questions science does not answer?
+ - Course outline
+
+** Scientific workflow
+
+ - Experiment design
+
+   Tell how to come up with an experiment that proves correctness of
+   scientific hypothesis. Experiment outcome. Type I and Type II
+   errors. Meta-analysis.
+
+ - Preparing the environment
+
+   Tell how to prepare experiment environment to guarantee that what
+   you think you measure is what you actually measure.
+
+ - Making experiments reproducible
+
+   - Logging
+
+   - Saving seeds for PRNG
+
+   - Capturing the environment
+
+ - Saving the data
+
+   - Open science
+
+   - Research archives
+
+   - Guidelines for good scientific practice (revisited)
+
+** Descriptive statistics
+
+ - Random variables
+
+   independent identically distributed random variables (iid),
+   dependent variables, continuous and discrete variable
+
+ - Simple statistics
+
+   Maximum, minimum, mean, truncated mean, median, mode, quantiles,
+   standard error, standard deviation, coefficient of variation.
+
+ - Dispersion
+
+   - Chebyshev’s inequality
+
+   - Normal distribution
+
+     Normalizing the distribution
+
+   - Three sigma rule of thumb
+
+ - Parametric and non-parametric statistics
+
+ - Hypothesis testing
+
+   - Confidence intervals
+
+   - Statistical tests
+
+   - One and two-tailed tests
+
+   - Small sample sizes
+
+     t-distribution
+
+   - Type I and II errors (revisited)
+     
+ - Visualizing the data
+
+   scatter plot, line plot, bar plot, histogram, box plot, qq-plot,
+   density plot, violin plot
+
+ - Describing the distribution
+
+   positive and negative skew, positive and negative kurtosis,
+   multimodal and unimodal, types of tails
+
+** Hypothesis testing
+
+ - Statistical tests
+   - Is distribution normal?
+   - Normality tests
+   - Testing for homogeneity of variance
+   - Outliers
+ - Non parametric tests
+   
+** Paper review (exercise)
+
+   In the end of last lecture we let students to pick a paper to write
+   a review on. Preferably they pick a paper from a list of papers we
+   think are good for supporting the message of previous lectures.
+
+** Statistical modeling 
+
+ - Statistical distributions
+
+   Why distributions matter. Give an example from scheduling
+   theory. Explain how certain quantities are naturally
+   distributed. Give examples from computer science and physics.
+
+ - Linear regression
+
+   Basic introduction
+
+ - Central limit theorem
+
+   Make very explicit distinction between distribution of the random
+   variable and distribution of the mean of the sample from the random
+   variable.
+
+   - Law of large numbers
+
+ - Extreme value theory
+
+   Just introduce the topic and tell that extreme value theorem
+   relates to CLT as GEV to normal distribution.
+
+   - Generalized extreme value distribution
+
+   - Extreme value theorem
+
+   - Methods to get extreme value distributions
+
+** ANOVA
+** Regression models
+
+   - Logistic regression
+   - Linear regression
+
+** Descriptive data analysis (exercise)
+
+   Students get some piece of data they have to analyze and prepare a
+   report where they can illustrate their findings.
+
+** Probability in science
+
+   Here the goal is to give examples of research topics where
+   probability is an important concept and how it is used there. Focus
+   should be made on mathematical properties of these concepts.
+
+   - Privacy
+     
+     Differential privacy, zero-knowledge privacy
+
+   - Statistical bug isolation 
+
+** Modeling
+
+   To understand an effect under investigation it is often required to
+   build a mathematical model resembling basic properties of the
+   underlying process. Modeling does help a lot in developing
+   necessary intuition. Students should understand that even rough
+   models can often be very helpful and it is important to choose
+   right level of detail.
+
+   Literature: 
+     - Performance Evaluation of Computer and Communication Systems,
+       Jean-Yves Le Boudec
+
+   - Performance modeling
+
+     Rooftop model, LogP model.
+
+     Give matrix multiplication as an example. Describe cache aware
+     and cache oblivious algorithms.
+
+   - Discrete event simulation
+
+   - Scheduling and queuing theory
+
+** Modeling (exercise)
+
+   Students have to write a solve algorithmic problem, like matrix
+   multiplication, extensively using modeling in the process. They
+   have thoroughly document as many steps as they can in the process
+   of optimization with proper explanation of the bottlenecks
+   discovered due to modeling.
