@@ -4,7 +4,7 @@
 * About
 
 The goal of this document is to propose a plan for a lecture or
-practicum about scientific methods. The purpose of the class is to
+practicum about empirical scientific methods. The purpose of the class is to
 teach student to produce high quality scientific material.
 
 * Literature
