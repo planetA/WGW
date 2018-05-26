@@ -9,12 +9,16 @@ teach student to produce high quality scientific material.
 
 * Literature
 
-Discovering statistics Using R, Andy Field, Jeremy Miles, Zoë Field
+Performance Evaluation of Computer and Communication
+Systems. Jean-Yves Le Boudec
+
+Modern Applied Statistics with S. W. N. Venables, B. D. Ripley.
 
 * Study plan
 
 This chapter outlines the structure of the course for 2 SWS. There are
-expected to be 15 lectures and exercises.
+expected to be 12 lectures and exercises. Core curricullum comes from
+Le Boudec book.
 
 ** Introduction
 
@@ -89,10 +93,13 @@ scientific challenges.
 
 ** Descriptive statistics
 
+This lectures teaches how to properly summarize and represent data.
+
  - Random variables
 
    independent identically distributed random variables (iid),
-   dependent variables, continuous and discrete variable
+   dependent variables, continuous and discrete variable. Independence
+   Assumption.
 
  - Simple statistics
 
@@ -111,20 +118,14 @@ scientific challenges.
 
  - Parametric and non-parametric statistics
 
- - Hypothesis testing
+ - Confidence Intervals
 
-   - Confidence intervals
+   - Confidence Intervals for mean
 
-   - Statistical tests
+   - Confidence Intervals for median
 
-   - One and two-tailed tests
+ - Robust
 
-   - Small sample sizes
-
-     t-distribution
-
-   - Type I and II errors (revisited)
-     
  - Visualizing the data
 
    scatter plot, line plot, bar plot, histogram, box plot, qq-plot,
@@ -135,22 +136,8 @@ scientific challenges.
    positive and negative skew, positive and negative kurtosis,
    multimodal and unimodal, types of tails
 
-** Hypothesis testing
 
- - Statistical tests
-   - Is distribution normal?
-   - Normality tests
-   - Testing for homogeneity of variance
-   - Outliers
- - Non parametric tests
-   
-** Paper review (exercise)
-
-   In the end of last lecture we let students to pick a paper to write
-   a review on. Preferably they pick a paper from a list of papers we
-   think are good for supporting the message of previous lectures.
-
-** Statistical modeling 
+** Statistical modeling I
 
  - Statistical distributions
 
@@ -161,6 +148,10 @@ scientific challenges.
  - Linear regression
 
    Basic introduction
+
+ - Univariate statistics
+
+ - Tree-based models
 
  - Central limit theorem
 
@@ -173,7 +164,8 @@ scientific challenges.
  - Extreme value theory
 
    Just introduce the topic and tell that extreme value theorem
-   relates to CLT as GEV to normal distribution.
+   relates to CLT as GEV to normal distribution. Should not be
+   discussed in detail.
 
    - Generalized extreme value distribution
 
@@ -181,22 +173,55 @@ scientific challenges.
 
    - Methods to get extreme value distributions
 
-** ANOVA
-** Regression models
+** Hypothesis testing
 
-   - Logistic regression
-   - Linear regression
+ - Statistical tests
+   - Is distribution normal?
+   - Normality tests
+   - Testing for homogeneity of variance
+   - Outliers
+ - Non parametric tests
+
+ - Confidence intervals
+
+ - AVOVA
+
+ - One and two-tailed tests
+
+ - Small sample sizes
+
+   t-distribution
+
+ - Type I and II errors (revisited)
+     
 
 ** Descriptive data analysis (exercise)
 
    Students get some piece of data they have to analyze and prepare a
    report where they can illustrate their findings.
 
+** Statistical modelling II
+
+   - Linear statistical models
+     - Logistic regression
+     - Linear regression
+     - Non-linear regression
+   - Overfitting and regularization
+   - Multivariate Analysis
+   
+** Paper review (exercise)
+
+   In the end of last lecture we let students to pick a paper to write
+   a review on. Preferably they pick a paper from a list of papers we
+   think are good for supporting the message of previous lectures.
+
 ** Probability in science
 
    Here the goal is to give examples of research topics where
    probability is an important concept and how it is used there. Focus
-   should be made on mathematical properties of these concepts.
+   should be made on mathematical properties of these concepts. The
+   lecture concentrates on practical application of statistics and
+   probability theory.
 
    - Privacy
      
@@ -251,6 +276,8 @@ scientific challenges.
    Confirmation bias
 
    Representative sampling and stratification
+
+   Regression to the mean
 
  - Ethics in computer science
 
