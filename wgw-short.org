@@ -1,0 +1,143 @@
+#+TITLE: Wissenschaftliches Grundlagenwissen (curriculum plan)
+#+AUTHOR: Maksym Planeta
+
+* About
+
+The goal of this document is to propose outline topics for a
+curriculum of about two lectures about empirical scientific
+methods. The purpose of the class is to teach student to produce high
+quality scientific material.
+
+* Literature
+
+Recommended literature is the same as for the full plan.
+
+Performance Evaluation of Computer and Communication
+Systems. Jean-Yves Le Boudec
+
+Discovering statistics Using R, Andy Field, Jeremy Miles, Zoë Field
+
+* Study plan
+
+This is a compact version of a full plan
+
+** Applied Statistics
+
+ - Scientific experiment
+   - Experiment design
+
+     Tell how to come up with an experiment that proves correctness of
+     scientific hypothesis. Experiment outcome. Type I and Type II
+     errors. Meta-analysis.
+
+   - Preparing the environment
+
+     Tell how to prepare experiment environment to guarantee that what
+     you think you measure is what you actually measure.
+
+   - Making experiments reproducible
+
+     - Logging
+
+     - Saving seeds for PRNG
+
+     - Capturing the environment
+
+ - Descriptive statistics
+   - Random variables
+
+     independent identically distributed random variables (iid),
+     dependent variables, continuous and discrete variable. Independence
+     Assumption.
+
+   - Simple statistics
+
+     Maximum, minimum, mean, truncated mean, median, mode, quantiles,
+     standard error, standard deviation, coefficient of variation.
+
+   - Dispersion
+
+     - Normal distribution
+
+       Normalizing the distribution
+
+     - Three sigma rule of thumb
+
+   - Parametric and non-parametric statistics
+
+   - Confidence Intervals
+
+     - Confidence Intervals for mean
+
+     - Confidence Intervals for median
+
+ - Statistical modeling
+
+   - Statistical distributions
+
+     Why distributions matter. Give an example from scheduling
+     theory. Explain how certain quantities are naturally
+     distributed. Give examples from computer science and physics.
+
+   - Linear regression
+
+     Basic introduction
+
+   - Univariate statistics
+
+   - Central limit theorem
+
+     Make very explicit distinction between distribution of the random
+     variable and distribution of the mean of the sample from the random
+     variable.
+
+     - Law of large numbers
+
+ - Hypothesis testing
+
+ - Statistical tests
+   - Is distribution normal?
+   - Outliers
+
+** Applied Statistics II
+
+  - Applications
+
+   Here the goal is to give examples of research topics where
+   probability is an important concept and how it is used there. Focus
+   should be made on mathematical properties of these concepts. The
+   lecture concentrates on practical application of statistics and
+   probability theory.
+
+    - Privacy
+     
+      Differential privacy, zero-knowledge privacy
+
+    - Statistical bug isolation 
+
+  - Visualizing the data
+
+    scatter plot, line plot, bar plot, histogram, box plot, qq-plot,
+    density plot, violin plot
+
+  - Statistical Biases and Paradoxes
+
+    Simpsons paradox: low birth-weight paradox
+
+    Monty Hall problem
+
+    Uncertainty bias: This has a good illustration European Union 
+    regulations on algorithmic decision-making and a “right to
+    explanation” Bryce Goodman, 1∗ Seth Flaxman
+
+    Confirmation bias
+
+    Representative sampling and stratification
+
+    Regression to the mean
+
+  - Modelling
+
+    - Discrete event simulation
+
+    - Scheduling and queuing theory
